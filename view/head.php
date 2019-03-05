@@ -71,9 +71,9 @@
   </a>
   <?php 
     if (isset($_SESSION["username"])) {?>
-      <a class="nav-item nav-link" href="../controller/logout.php" tabindex="-1" aria-disabled="true">Logout</a>
+      <a class="nav-item nav-link" href="../controll/logout.php" tabindex="-1" aria-disabled="true">Logout</a>
       <?php if ($_SESSION["role"]==="admin") { ?>
-        <a class="nav-item nav-link" href="back/lte/index.php" tabindex="-1" aria-disabled="true">Deshboard</a>
+        <a class="nav-item nav-link" href="indexb.php" tabindex="-1" aria-disabled="true">Deshboard</a>
      <?php } ?>
     <?php }else { ?>
       <a class="nav-item nav-link" href="register.php" tabindex="-1" aria-disabled="true">Register</a>

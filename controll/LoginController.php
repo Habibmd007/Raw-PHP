@@ -18,7 +18,7 @@ if (isset($_REQUEST["Login"])) {
         $_SESSION["role"]= $user["role"];
         $_SESSION["username"]= $user["username"];
             if ($user["role"] === "admin") {
-                header("location: ../view/back/lte/index.php?txt=Your are ADMIN in");
+                header("location: ../view/indexb.php?txt=Your are ADMIN in");
             }else {
                 header("location: ../view/index.php?txt=Your are USER in");
             }

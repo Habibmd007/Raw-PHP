@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <form class="shadow-lg p-3 mb-5 bg-white rounded" action="../controller/RegisterController.php" method="post" enctype="multipart/form-data">
+                <form class="shadow-lg p-3 mb-5 bg-white rounded" action="../controll/RegisterController.php" method="post" enctype="multipart/form-data">
                    
                     <div class="form-group">
                             <select name="role" id="my-input" class="custom-select">
